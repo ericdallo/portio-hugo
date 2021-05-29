@@ -1,4 +1,4 @@
-<section class="footer" id="contact">
+<section class="footer" id="{{ .Site.Params.help.id }}">
 	<div class="footer__background_shape">
 		<svg viewBox="0 0 1920 79">
 			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
@@ -39,7 +39,7 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="text-light footer__widget_sitemap mb-5">
-					<h4 class="base-font">Sitemap</h4>
+					<h4 class="base-font">Mapa do site</h4>
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
 						{{ range $sitemap }}
