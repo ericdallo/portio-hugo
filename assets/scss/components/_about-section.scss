@@ -34,7 +34,7 @@
           &.about_mask_svg {
             mask: url(../images/about/about-mask-svg.svg);
             -webkit-mask-repeat: no-repeat;
-            -webkit-mask-size: contain;
+            -webkit-mask-size: cover;
             -webkit-mask-position: center center;
           }
         }
@@ -43,7 +43,7 @@
     &-inner {
       width: 55%;
       padding: 60px 50px;
-      background: #1b2031;
+      background: $about-panel-background;
       border-radius: 20px;
       margin-left: -60px;
       position: relative;
